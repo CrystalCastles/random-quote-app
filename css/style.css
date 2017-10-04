@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(141,134,146);
+  font-family: sans-serif, arial;
+}
+
+.content{
+  background-color: white;
+  position: fixed;
+  border-radius: 5px;
+  height: 270px;
+  width: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  color: white;
+}
+
+#getQuote {
+  margin-left: 20px;
+}
+
+#twitter-share-button {
+  margin-left: 140px;
+}
+
+#getQuote, #twitter-share-button {
+    position: absolute;
+    bottom: 0px;
+    background-color: white; /* Green */
+    border: solid 2px rgb(141,134,146);
+    border-radius: 5px;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+#quote {
+  padding: 25px 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#author {
+  position: absolute;
+  font-size: 15px;
+  right: 0px;
+  margin-top: -10px;
+  margin-right: 15px;
+}
